@@ -1,0 +1,37 @@
+  import random
+num = random.randint(1,100)
+print(num)
+num_1 = random.random()
+num_2 = round(num_1,2)
+print(num_2)
+
+#heads or tailes
+number = random.randint(1,2)
+if number == 1:
+  print("heads")
+else:
+  print("tails")
+
+#python lists
+
+  
+# states_names = ["andhrapradesh","telangana","tamilnadu","kerela","punjab",]
+# print(states_names)
+# print(states_names[2])
+# print(states_names[-2])
+# states_names[-2] = "kearalayia"
+# print(states_names)
+# states_names.append("nithin land")
+# print(states_names)
+# states_names.extend(["nithin land", "mother land", "father land"])
+# print(states_names)
+
+
+#project random member bill
+import random
+name = input("give me everybody names, seperated by commas\n")
+name_1 = name.split(",")
+length = len(name_1)
+random_choice = random.randint(1 , length - 1)
+name_2 = names[random_choice]
+print(f"{name_2} will pay the bill today")
