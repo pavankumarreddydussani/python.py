@@ -1,0 +1,13 @@
+print("welcome to tip calucator")
+print(input("what was the total bill?$"))
+print(input('the percentage tip should give them?'))
+print(input("the bill should distributed between how many people?"))
+
+
+
+
+                   
+
+
+
+
