@@ -1,0 +1,8 @@
+# day-04-randamaition
+# import random
+# num = random.randint(1, 100)
+# print(num)
+
+
+# num_1 = random.random()
+# print(num_1)
