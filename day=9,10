@@ -1,0 +1,21 @@
+
+print("hello world")
+print("Day 1 - python print function")
+print("the function is declered like this")
+print("print('what to print')")
+print("hello world\nhello world")
+print("hello" + "nithin")
+print("hello" + " " + " nithin")
+input("what is your name")
+input ("what is your age\n")
+print("you are age is" + input("what is your age"))
+name = input("what is your name")
+length = int(len(name))
+print(f"your name has {length} characters")
+
+
+#project 01
+print("welcome to band name generator")
+name = input("whats name of the city you grew up in")
+pet = input("whats your pets name")
+print("your band name is " + name + " " + pet)
